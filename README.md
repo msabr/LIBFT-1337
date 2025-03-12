@@ -23,8 +23,8 @@ Libft consists of multiple categories of functions, including:
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/LuizGandra/libft-42.git
-   cd libft-42
+   git clone https://github.com/msabr/LIBFT-1337
+   cd LIBFT-1337
 
 2. Build the mandatory part:
    
@@ -36,11 +36,6 @@ Libft consists of multiple categories of functions, including:
    ```bash
    make
 This includes linked list functions in `libft.a`.
-
-4. Link the library to your C project:
-   
-   ```bash
-   clang -o <program> <file>.c -L<libft.a directory> -lft
 
 #### Additional commands
 
