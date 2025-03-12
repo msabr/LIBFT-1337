@@ -18,7 +18,39 @@ Libft consists of multiple categories of functions, including:
 - Gaining a strong foundation for future 42 projects.  
 
 ## **Usage**  
-To compile and use **Libft** in your projects, run:  
+### How to Build and Run
 
-```sh
-make
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/LuizGandra/libft-42.git
+   cd libft-42
+
+2. Build the mandatory part:
+   
+   ```bash
+   make
+
+3. Build the bonus part (optional):
+   
+   ```bash
+   make
+This includes linked list functions in `libft.a`.
+
+4. Link the library to your C project:
+   
+   ```bash
+   clang -o <program> <file>.c -L<libft.a directory> -lft
+
+#### Additional commands
+
+- `make clean`: remove object files.
+- `make fclean`: remove the program and object files.
+- `make re`: rebuild everything.
+
+## Project Structure
+
+- `libft.h`: function prototypes.
+- `ft_*.c`: mandatory function sources.
+- `ft_*_bonus.c`: bonus function sources.
+- `Makefile`: compilation automation.
