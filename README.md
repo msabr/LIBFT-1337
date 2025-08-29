@@ -1,4 +1,7 @@
 # **Libft - 42 Network**  
+<div align="center">
+<img src="libft.png"/>
+</div>
 
 ## **Overview**  
 This project is the first step in my journey at **42 Network**. The goal of **Libft** is to rebuild essential functions from the C standard library, along with additional utility functions that will be useful throughout the entire curriculum. By implementing these functions, I gain a deeper understanding of low-level programming, memory management, and algorithmic problem-solving.  
